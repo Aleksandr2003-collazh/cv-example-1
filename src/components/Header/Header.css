@@ -1,0 +1,19 @@
+.header {
+  min-height: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid var(--main-color);
+}
+.logo {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.button-contact {
+  padding: 0.75rem 1.875rem;
+  border: 2px solid var(--main-color);
+  background-color: var(--main-background);
+  max-height: 2.6rem;
+}

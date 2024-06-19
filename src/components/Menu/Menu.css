@@ -1,0 +1,11 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+.menu > li {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

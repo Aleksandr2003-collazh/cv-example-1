@@ -1,0 +1,61 @@
+.main {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.main-container-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  z-index: 1;
+  position: absolute;
+  left: 7rem;
+  width: 60%;
+  max-width: 60%;
+  height: 50%;
+}
+
+.main-rectangle {
+  display: block;
+  width: 12.5rem;
+  height: 0.625rem;
+  background-color: var(--main-color);
+}
+
+.main-h1 {
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 125%;
+  letter-spacing: 0.45rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.main-p {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.main-photo {
+  padding-right: 7rem;
+  max-height: 590px;
+}
+.button-form {
+  padding: 1.125rem 2.5rem;
+  align-items: flex-start;
+  background: #2c363f;
+  color: #f2f5ea;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  height: fit-content;
+}

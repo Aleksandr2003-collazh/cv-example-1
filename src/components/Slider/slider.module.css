@@ -1,0 +1,27 @@
+.slider-container {
+  overflow-x: hidden;
+  width: 100vw;
+  height: 75vh;
+}
+.slider-list {
+  display: flex;
+  max-height: 100%;
+}
+.dot {
+  background-color: white;
+  border-radius: 5px;
+  height: 10px;
+  margin: 5px;
+  width: 10px;
+  border: solid var(--main-color) 2px;
+}
+.active {
+  background-color: red;
+}
+.slide-list-container {
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  transition: transform 0.5s ease-in-out;
+}
