@@ -15,7 +15,7 @@ export default function Header() {
   }, [isScreenMd]);
   return (
     <header className="header">
-      <div className="logo">Oksana Fedotova</div>
+      <div className="logo">Aleksandr Varvarin</div>
       {isDesktop && <Menu />}
       {!isDesktop && <Burger />}
       <Button className="button-contact" onClick={() => navigate('contacts')} label="Контакты" />
